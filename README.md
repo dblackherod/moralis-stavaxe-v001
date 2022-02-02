@@ -12,7 +12,7 @@ Bitcoin (wBTC/wBTC.e) or Ethereum (wETH/wETH.e) is swapped to AVAX (wAVAX) for Y
 Interests earned on both assets are reinvested automatically into the LP, or swapped back to original assets with [YYSwap](https://yieldyak.com/swap). Token exchange prices are queried from YYSwap DEX aggregator.
 
 # Implementaiton
-StAVAXe provides custom Yield-Yak implementations for its vault and BTC strategy. See [Yield-Yak Smart Contracts]() repository for reference.
+StAVAXe provides custom Yield-Yak implementations for its vault and BTC strategy. See [Yield-Yak Smart Contracts](https://github.com/yieldyak/smart-contracts) repository for reference.
 
 # Issues
 Current deployment is on Moralis nginx server, which returns error page on successful network chain change. This is merely an issue with server.conf file setup which there is no known workaround for customizing Moralis server configuration. Navigate back to / to continue.
